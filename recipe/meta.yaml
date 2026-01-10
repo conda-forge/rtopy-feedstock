@@ -1,5 +1,5 @@
 {% set name = "rtopy" %}
-{% set version = "0.1.2" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Techtonique/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: bd5d3d4a102863764d085b493688c9ad3a138cf0814abf12638c2af81de54935
+  sha256: 05ab6cf5d40a6b367492acdf5e46d0a5c33cd02d43e74d4ffcbb28df37a3f659
 
 build:
   number: 4
